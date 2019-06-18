@@ -1,0 +1,401 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Home</title>
+  
+ 
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    
+    </head>
+    
+    <body>
+<style>
+body{
+background-color:orange;
+}
+	@media screen and (orientation:portrait){
+img{
+max-width:100%;
+max-height:100%;	
+}
+	}
+h3.left{
+	border: liquid;
+	padding: 16px;
+}
+h3.left1{
+	border: liquid;
+	padding: 16px;
+}
+h3.left2{
+	border: liquid;
+	padding: 16px;
+}
+.float-img{
+	float: right;
+	margin-right: 10px;
+	margin-botton: 5px;
+	border: solid black 1px;
+	padding: 2px;
+}
+
+#panel1{
+	display:none;
+	text
+	
+}
+
+#panel2{
+	display:none;
+}
+#panel3{
+	display:none;
+}
+
+#panel5{
+	display:none;
+}
+#subtitle{
+	background-color: #EBEBE6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
+@media screen and (min-width: 761px), print {
+	.inner.narrow,
+	body[class*="cs-"] main.childpage .inner { width: 760px; }
+	}
+
+</style>
+<script>
+function God() {
+var mylist=document.getElementById("myList");
+var panel=document.getElementById("panel1");
+var panel2=document.getElementById("panel2");
+var panel3=document.getElementById("panel3");
+var panel4=document.getElementById("panel4");
+var panel4=document.getElementById("panel5");
+	if( mylist.value == "MajorGod" ){
+    document.getElementById("panel1").style.display = "block";
+	document.getElementById("panel2").style.display = "none";
+	document.getElementById("panel3").style.display = "none";
+	document.getElementById("panel4").style.display = "none";
+	document.getElementById("panel5").style.display = "none";
+	}else if( mylist.value == "MinorGod" ){
+	document.getElementById("panel2").style.display = "block";
+	document.getElementById("panel1").style.display = "none";
+	document.getElementById("panel3").style.display = "none";
+	document.getElementById("panel4").style.display = "none";
+	document.getElementById("panel5").style.display = "none";
+	}else if( mylist.value == "Immortal" ){
+	document.getElementById("panel3").style.display = "block";
+	document.getElementById("panel1").style.display = "none";
+	document.getElementById("panel2").style.display = "none";
+	document.getElementById("panel4").style.display = "none";
+	document.getElementById("panel5").style.display = "block";
+	}
+}
+</script>
+
+
+<!--navbar-->
+
+   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+  <a class="navbar-brand" href="../index.html"><canvas id="myCanvas" width="100" height="50" style="border:1px solid #000000; background: #FFFFFF;">
+</canvas></a>
+ 
+ <script>
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.beginPath();
+	ctx.fillStyle = "#ff0000";
+	ctx.arc(50.5,25,15,0,2*Math.PI);
+	ctx.fill();
+	</script> 
+ 
+ <style>
+	 .dropdown-toggle{
+		 font-size: 18px;
+		 
+	 }		 
+	 
+	 .nav-link{
+		 font-size: 18px;
+		 
+	 }		 
+	 
+</style>
+ 
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Food
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="../food/sushi.html">Sushi</a>
+          <a class="dropdown-item" href="../food/noodles.html">noodles</a>
+          <a class="dropdown-item" href="../food/meat.html">Meat</a>
+        </div>
+      </li>
+      </li>
+      <li class="nav-item">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          History
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="../history/God.html">God</a>
+          <a class="dropdown-item" href="../history/building.html">Building</a>
+          <a class="dropdown-item" href="../history/emperor.html">Emperor</a>
+        </div>
+      </li>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Subculture
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="../subculture/anime.html">Anime</a>
+          <a class="dropdown-item" href="../subculture/Manga.html">Manga</a>
+          <a class="dropdown-item" href="../subculture/games.html">Games</a>
+        </div>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="http://127.0.0.1:8000/admin">Forum <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>      
+
+
+
+<!--Content-->
+
+<div id="subtitle" style="margin-top: 15; padding-bottom: 10px">
+<center><h2 style="font-size: 25px"><b>Shinto(神道)</b></h2>
+<div id="panel4" class="panel panel-default" style="background-color: white">
+<div class="inner narrow">
+<h4 style="font-size: 15px">The traditional religion of Japan that focuses on ritual practices to be carried out diligently to establish a connection between present-day Japan and its ancient past.</center>
+</h4>
+</div>
+<center><div id="img">
+<img src="photo/god.jpg" width="600"></center>
+</div>
+</div>
+</div>
+<center><div id="panel5" class="panel panel-default">
+There are two kinds of "human gods" that are regarded as worshippers of the gods. The first one is a person who has made many great achievements in his life. The second type is a person who died due to bizarre reasons and caused unexplained disasters. Also known as "Chong Shen" (祟り神).</center>
+</div>
+<div id="subtitle"><b>Click "search" for detail</b></div>
+<center><select id="myList">
+  <option value="MajorGod">MajorGod</option>
+  <option value="MinorGod">MinorGod</option>
+  <option value="Immortal">Human God</option>
+</select>
+<button type="button" onclick="God()">search</button></center>
+
+
+<!--Panel1-->
+
+<div id="panel1" class="panel panel-default">
+  <p><center><h2><b>MajorGod</b></h2></center>
+  
+<!--accordion-->   
+  
+  <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Amaterasu-Ō-Mi-Kami
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+		<img src="photo/TinChu.png" class="float-img" />
+        <center><h3 class="left">Amaterasu (天照)</h3></center> Amaterasu (天照), Amaterasu-ōmikami (天照大神／天照大御神／天照皇大神), or Ōhirume-no-muchi-no-kami (大日孁貴神) is a deity of the Japanese myth cycle and also a major deity of the Shinto religion. She is seen as the goddess of the sun and the universe. The name Amaterasu is derived from Amateru and means "shining in heaven". The meaning of her whole name, Amaterasu-ōmikami, is "the great august kami (deity) who shines in the heaven".
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Izanagi
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+	  <img src="photo/nagi.png" class="float-img" width="96px" height="137" />
+        <h3 class="left1">Izanagi (伊邪那岐)</h3>
+		zanagi (Japanese: イザナギ, recorded in the Kojiki as 伊邪那岐 and in the Nihon Shoki as 伊弉諾) is a deity born of the seven divine generations in Japanese mythology and Shinto, and his name in the Kojiki is roughly translated to as "he-who-invites". He is also known as Izanagi-no-mikoto or Izanagi-no-Ōkami.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Izanami
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+	  <img src="photo/nami.png" class="float-img" />
+        <center><h3 class="left2">Izanami (伊邪那美)</h3></center>Izanami (伊弉冉 or 伊邪那美) Izanagi's wife and sister, she is the first female as well as the goddess of creation and death. She died shortly after the birth of Kagu-tsuchi, and Izanagi followed her to the underworld, but failed to bring her back to the living world. A marital spat between the pair caused the cycle of life and death for all living beings.
+      </div>
+    </div>
+  </div>
+</div>
+	</p>
+</div>
+</div>
+
+
+<!--Panel2-->
+
+
+<div id="panel2" class="panel panel-default">
+  <p><center><h2><b>MinorGod</b></h2></center>
+  
+<!--accordion-->  
+  
+  <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="heading1">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+          Uke Mochi
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion">
+      <div class="card-body">
+		<img src="photo/Uke.png" class="float-img" width="121px" height="216px"/>
+        <center><h3 class="left">Uke Mochi (保食神)</h3></center> Uke Mochi (Japanese: 保食神 Hepburn: Ukemochi-no-kami, English: "Goddess Who Protects Food") is a goddess of food in the Shinto religion of Japan.[1] When Uke Mochi was visited by Tsukuyomi she prepared a feast by facing the ocean and spitting out a fish, then she faced the forest and bountiful game spewed out of her mouth, finally turning to a rice paddy she coughed up a bowl of rice. Tsukuyomi was so disgusted he killed her.[2] Even her dead body produced food: millet, rice, and beans sprang forth. Her eyebrows even became silkworms.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading2">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+          Ōkuninushi
+        </button>
+      </h5>
+    </div>
+    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
+      <div class="card-body">
+	  <img src="photo/Big.png" class="float-img" width="160" height="166" />
+        <h3 class="left1">Ōkuninushi (大国主)</h3>
+		 Ōkuninushi (大国主) is a kami in Shinto. He is believed to be originally the ruler of Izumo Province, until he was replaced by Ninigi. In compensation, he was made ruler of the unseen world of spirits and magic. He is believed to be a god of nation-building, farming, business, and medicine.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading3">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+          Susanoo-no-Mikoto
+        </button>
+      </h5>
+    </div>
+    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+      <div class="card-body">
+	  <img src="photo/須佐之男.png" class="float-img" width="183px" height="91px"/>
+        <center><h3 class="left2">Susanoo-no-Mikoto</h3></center>Susanoo-no-Mikoto (須佐之男尊) Alternately romanized as Susano-o, Susa-no-o, and Susanowo. Reportedly called "Futsushi". He is the god of storms as well as in some cases the god of the sea. He is also somewhat of a trickster god, as Japanese mythology extensively documents the "sibling rivalry" between him and Amaterasu. Susanoo also was responsible for the slaying of the monster Yamata no Orochi and the subsequent discovery of the sacred sword Kusanagi.
+      </div>
+    </div>
+  </div>
+</div></p>
+</div>
+</div>
+
+
+<!--Panel3-->
+
+
+<div id="panel3" class="panel panel-default">
+  <p><center><h2><b>MinorGod</b></h2></center>
+
+<!--accordion--> 
+  
+  <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="heading4">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+          Oda Nobunaga
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+      <div class="card-body">
+		<img src="photo/Odanobunaga.png" class="float-img" width="73px" height="85px"/>
+        <center><h3 class="left">Oda Nobunaga (織田信長)</h3></center> Oda Nobunaga (織田 信長 Oda Nobunaga, About this soundlisten; June 23, 1534 – June 21, 1582) was a powerful daimyō (feudal lord) of Japan in the late 16th century who attempted to unify Japan during the late Sengoku period, and successfully gained control over most of Honshu. Nobunaga is regarded as one of three unifiers of Japan along with his retainers Toyotomi Hideyoshi and Tokugawa Ieyasu.  
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading5">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+          Toyotomi Hideyoshi
+        </button>
+      </h5>
+    </div>
+    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
+      <div class="card-body">
+	  <img src="photo/hideyoshi.png" class="float-img" width="96px" height="120" />
+        <h3 class="left1">Toyotomi Hideyoshi (豊臣 秀吉)</h3>
+		Toyotomi Hideyoshi (豊臣 秀吉, March 17, 1537 – September 18, 1598) was a preeminent daimyō, warrior, general, samurai, and politician of the Sengoku period[1] who is regarded as Japan's second "great unifier".[2] He succeeded his former liege lord, Oda Nobunaga, and brought an end to the Warring Lords period. The period of his rule is often called the Momoyama period, named after Hideyoshi's castle. After his death, his young son Hideyori was displaced by Tokugawa Ieyasu.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading6">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+          Prince Shōtoku
+        </button>
+      </h5>
+    </div>
+    <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
+      <div class="card-body">
+	  <img src="photo/Shotoku.png" class="float-img" width="73px" height="101px"/>
+        <center><h3 class="left2">Prince Shōtoku (聖徳太子)</h3></center>Prince Shōtoku (聖徳太子 Shōtoku Taishi, February 7, 574 – April 8, 622[2]), also known as Prince Umayado (厩戸皇子 Umayado no ōji) or Prince Kamitsumiya (上宮皇子 Kamitsumiya no ōji), was a semi-legendary regent and a politician of the Asuka period in Japan who served under Empress Suiko. He was the son of Emperor Yōmei and his consort, Princess Anahobe no Hashihito, who was also Yōmei's younger half-sister. His parents were relatives of the ruling Soga clan[3] and he was involved in the defeat of the rival Mononobe clan.
+      </div>
+    </div>
+  </div>
+</div></p>
+</div>
+</div>
+
+</body>
+</html>

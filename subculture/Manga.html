@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="style.css">
+        <title >Manga</title>
+    </head>
+    <body>
+			
+             
+               <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+  <a class="navbar-brand" href="../index.html"><canvas id="myCanvas" width="100" height="50" style="border:1px solid #000000; background: #FFFFFF;">
+</canvas></a>
+ 
+ <script>
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.beginPath();
+	ctx.fillStyle = "#ff0000";
+	ctx.arc(50.5,25,15,0,2*Math.PI);
+	ctx.fill();
+	</script> 
+ 
+ <style>
+	 .dropdown-toggle{
+		 font-size: 18px;
+		 
+	 }		 
+	 
+	 .nav-link{
+		 font-size: 18px;
+		 
+	 }		 
+	 
+</style>
+ 
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Food
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="../food/sushi.html">Sushi</a>
+          <a class="dropdown-item" href="../food/noodles.html">noodles</a>
+          <a class="dropdown-item" href="../food/meat.html">Meat</a>
+        </div>
+      </li>
+      </li>
+      <li class="nav-item">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          History
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="../history/God.html">God</a>
+          <a class="dropdown-item" href="../history/building.html">Building</a>
+          <a class="dropdown-item" href="../history/emperor.html">Emperor</a>
+        </div>
+      </li>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Subculture
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="../subculture/anime.html">Anime</a>
+          <a class="dropdown-item" href="../subculture/Manga.html">Manga</a>
+          <a class="dropdown-item" href="../subculture/games.html">Games</a>
+        </div>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="http://127.0.0.1:8000/admin">Forum <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>      
+             
+             
+              <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<h2 id="top" style="background: #DD5B0D ; text-align: center; color: #FFF8A0 ; margin: 0px">Manga</h2>
+				
+	
+	<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2" style="background: #FFD5A7">
+     
+    </div>
+    <div class="col-sm-8 px-0">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="manga1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="manga2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="manga3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>		
+    </div>
+    <div class="col-sm-2 px-0" style="background: #FFD5A7">
+      
+    </div>
+  </div>
+</div>
+	
+	<br>
+  	
+		
+	
+	<h4 style="text-align: center ; background: #FFD93A">The introduction of Manga</h4>
+            
+	Manga are comics or graphic novels created in Japan or by creators in the Japanese language, conforming to a style developed in Japan in the late 19th century. They have a long and complex pre-history in earlier Japanese art.
+
+In Japan, people of all ages read manga. The medium includes works in a broad range of genres: action, adventure, business and commerce, comedy, detective, drama, historical, horror, mystery, romance, science fiction and fantasy, erotica, sports and games, and suspense, among others. Many manga are translated into other languages. Since the 1950s, manga has steadily become a major part of the Japanese publishing industry. By 1995, the manga market in Japan was valued at ¥586.4 billion ($6–7 billion), with annual sales of 1.9 billion manga books and manga magazines in Japan (equivalent to 15 issues per person). Manga have also gained a significant worldwide audience. In 2008, in the U.S. and Canada, the manga market was valued at $175 million. Manga represent 38% of the French comics market, which is equivalent to approximately ten times that of the United States. In France, the manga market was valued at about €460 million ($569 million) in 2005. In Europe and the Middle East, the market was valued at $250 million in 2012.
+	<br><br>
+Manga stories are typically printed in black-and-white, although some full-color manga exist (e.g., Colorful). In Japan, manga are usually serialized in large manga magazines, often containing many stories, each presented in a single episode to be continued in the next issue. Collected chapters are usually republished in tankōbon volumes, frequently but not exclusively, paperback books. A manga artist (mangaka in Japanese) typically works with a few assistants in a small studio and is associated with a creative editor from a commercial publishing company. If a manga series is popular enough, it may be animated after or during its run. Sometimes manga are drawn centering on previously existing live-action or animated films.
+
+Manga-influenced comics, among original works, exist in other parts of the world, particularly in Algeria ("DZ-manga"), China, Hong Kong, Taiwan ("manhua"), and South Korea ("manhwa").
+	
+	
+	<hr>
+	
+	<h4 style="text-align: center">Here are some interesting manga</h4>
+	
+	
+	<div class="container-fluid">
+  <div class="row ">
+    <div class="col-md-3 " >
+		<br>
+		
+      <div class="card" style="width: 20rem; margin:0 auto;">
+  <img src="mcard1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Is the Order a Rabbit?</h5>
+    <p class="card-text"></p>
+    <a href="https://en.wikipedia.org/wiki/Is_the_Order_a_Rabbit%3F" class="btn btn-primary">more information</a>
+  </div>
+</div>
+		
+		
+		
+    </div>
+    <div class="col-md-3">
+		<br>
+      <div class="card" style="width: 20rem; margin:0 auto;">
+  <img src="mcard2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Laid-Back Camp</h5>
+    <p class="card-text"></p>
+    <a href="https://en.wikipedia.org/wiki/Laid-Back_Camp" class="btn btn-secondary">more information</a>
+  </div>
+</div>
+		
+		
+    </div>
+   
+  
+		
+		
+    <div class="col-md-3">
+    <br>
+		<div class="card" style="width: 20rem;margin:0 auto;">
+  <img src="mcard3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Kin-iro Mosaic</h5>
+    <p class="card-text"></p>
+    <a href="https://en.wikipedia.org/wiki/Kin-iro_Mosaic" class="btn btn-success">more information</a>
+  </div>
+</div>
+		
+    </div>
+    <div class="col-md-3">
+<br>
+		
+		<div class="card" style="width: 20rem; margin:0 auto;">
+  <img src="mcard4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Sakura Trick</h5>
+    <p class="card-text"></p>
+    <a href="https://en.wikipedia.org/wiki/Sakura_Trick" class="btn btn-danger">more information</a>
+  </div>
+</div>
+		
+  
+   
+  </div>
+		
+</div>
+	
+		
+	
+	<div class="container-fluid">
+  <div class="row ">
+    <div class="col-md-3 " >
+		<br>
+		
+      <div class="card" style="width: 20rem; margin:0 auto;">
+  <img src="mcard5.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Comic Girls</h5>
+    <p class="card-text"></p>
+    <a href="https://en.wikipedia.org/wiki/Comic_Girls" class="btn btn-warning">more information</a>
+  </div>
+</div>
+		
+		
+		
+    </div>
+    <div class="col-md-3">
+		<br>
+      <div class="card" style="width: 20rem; margin:0 auto;">
+  <img src="mcard6.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Slow Start</h5>
+    <p class="card-text"></p>
+    <a href="https://en.wikipedia.org/wiki/Slow_Start_(manga)" class="btn btn-info">more information</a>
+  </div>
+</div>
+		
+		
+    </div>
+   
+  
+		
+		
+    <div class="col-md-3">
+    <br>
+		<div class="card" style="width: 20rem;margin:0 auto;">
+  <img src="mcard7.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Urara Meirocho</h5>
+    <p class="card-text"></p>
+    <a href="https://en.wikipedia.org/wiki/Urara_Meirocho" class="btn btn-primary">more information</a>
+  </div>
+</div>
+		
+    </div>
+    <div class="col-md-3">
+<br>
+		
+		<div class="card" style="width: 20rem; margin:0 auto;">
+  <img src="mcard8.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Blend S</h5>
+    <p class="card-text"></p>
+    <a href="https://en.wikipedia.org/wiki/Blend_S" class="btn btn-dark">more information</a>
+  </div>
+</div>
+		
+  
+   
+  </div>
+		
+</div>
+	
+	
+	
+	
+    </body>
+	<br>
+	<br>
+<a href="#top"><button style="display: block; margin: 0 auto;" type="button" class="btn btn-light">back to top</button></a>
+</html>
+
+
